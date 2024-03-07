@@ -10,4 +10,7 @@ const prodacts = [
 // console.log(brands);
 // const eng = prodact.map((k) => k.pries);
 // console.log(eng);
-prodacts.forEach((l) => console.log(l.pries));
+// prodacts.forEach((l) => console.log(l.pries));
+
+const name = prodacts.filter((p) => p.name.includes("p"));
+console.log(name);
